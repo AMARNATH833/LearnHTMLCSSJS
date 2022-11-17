@@ -1,0 +1,11 @@
+.responimage{
+    background-image: url("/p4.jpg");
+    background-position: center;
+    height: 120px;
+    color: aliceblue;
+    text-align: center;
+}
+.content{
+    color: gray;
+    background-color: aquamarine;
+}

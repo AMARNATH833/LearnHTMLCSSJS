@@ -5,22 +5,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table-DEMO</title>
+    <link rel="stylesheet" href="table.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
+    <h1>Learning about the Table & its property along with CSS</h1><hr>
     <table>
-        <caption>Sample table for learning about tables</caption>
         <tr>
-            <td>Hello</td><!--&nbsp; [is used to display empty space in the table which we are displaying!]-->
-            <td>We are in the Hercules Bay</td>
-            <td>Here we go!!!</td>
+            <td>S.NO</td>
+            <td>NAME</td><!--&nbsp; [is used to display empty space in the table which we are displaying!]-->
+            <td>DEPT</td>
+            <td>AGE</td>
+            <td>NATIVE</td>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>AMAR</td>
+            <td>DEVELOPMENT</td>
+            <td>22</td>
+            <td>NEYVELI</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>SANTHOSH</td>
+            <td>DEVELOPMENT</td>
+            <td>21</td>
+            <td>CHENNAI</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>MERLINS</td>
+            <td>DEVELOPMENT</td>
+            <td>22</td>
+            <td>THANJAVUR</td>
+          </tr>
+          <caption>Sample table</caption>
+    </table><br>
+    <hr>
+
+
+    <table>
+        <tr>
+          <td>&nbsp;</td>
+          <th scope="col">Knocky</th>
+          <th scope="col">Flor</th>
+          <th scope="col">Ella</th>
+          <th scope="col">Juan</th>
         </tr>
         <tr>
-            <td>Second row, first cell.</td>
-            <td>Cell 2.</td>
-            <td>Cell 3.</td>
-            <td>GOOD</td>
-          </tr>
-    </table>
-    
+          <th scope="row">Breed</th>
+          <td>Jack Russell</td>
+          <td>Poodle</td>
+          <td>Streetdog</td>
+          <td>Cocker Spaniel</td>
+        </tr>
+        <tr>
+          <th scope="row">Age</th>
+          <td>16</td>
+          <td>9</td>
+          <td>10</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <th scope="row">Owner</th>
+          <td>Mother-in-law</td>
+          <td>Me</td>
+          <td>Me</td>
+          <td>Sister-in-law</td>
+        </tr>
+        <tr>
+          <th scope="row">Eating Habits</th>
+          <td>Eats everyone's leftovers</td>
+          <td>Nibbles at food</td>
+          <td>Hearty eater</td>
+          <td>Will eat till he explodes</td>
+        </tr>
+      </table>
+      <aside>
+        <p> the earth is full of positivity so dont get depressed(USING ASIDE TAG)</p>
+      </aside>
+      <hr>
+      <h2>Using Rowspan</h2>
+      <table>
+        <caption><strong><i>Using RowSpan</i></strong></caption>
+        <tr>
+            <td>Name</td>
+            <td>Position</td>
+            <td>Relation</td>
+        </tr>
+        <tr>
+            <td>Amar</td>
+            <td>S1</td>
+            <td rowspan="2">SON</td>
+        </tr>
+        <tr>
+            <td>Gopi</td>
+            <td>S2</td>
+        </tr>
+      </table>
+      
+      <h2>Using column span</h2>
+      <caption><b><i>column Span</i></b></caption>
+      <table>
+        <tr>
+            <td>Name</td>
+            <td>Contribution</td>
+        </tr>
+        <tr>
+            <td>Amar</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Gopi</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td colspan="2">Total : 400</td>
+        </tr>
+      </table>
+      <hr>
+      <hr>
+      <audio
+        controls autoplay loop
+        src="#">
+            <a href="/media/cc0-audio/t-rex-roar.mp3">Download audio </a>
+    </audio>
+  
+
 </body>
 </html>
