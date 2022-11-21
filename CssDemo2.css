@@ -1,0 +1,46 @@
+*{
+    /* background: url(p4.jpg); */
+    margin: 0%;
+    
+
+}
+p{
+    font-family: 'Rubik Microbe', cursive;
+}
+.box{
+    margin: 30px;
+    width: 150px;
+    height: 140px;
+    background-color: blue;
+    /* transform: matrix(1, 2, 3, 4, 5, 6); */
+    /* transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); */
+    /* transform: perspective(17px); */
+    /* transform: rotate(0.8turn); */
+    transform: rotate3d(1, 2, 3, 10deg);
+    /* transform: rotateX(60deg); */
+    /* transform: rotateY(60deg); */
+    /* transform: rotateZ(10deg); */
+    /* transform: translate(200px, 75%); */
+    /* transform: translate3d(12px, 50%, 3em); */
+    /* transform: scale(2, 0.5); */
+    /* transform: skew(30deg, 20deg); */
+    /* transform: translateX(10px) rotate(10deg) translateY(5px); */
+}
+.notebox{
+    border: 4px solid rebeccapurple;
+    padding: .5em;
+}
+#fs-toggle:fullscreen {
+    background-color: #faa;
+  }
+  #fs-toggle:not(:fullscreen) {
+    background-color: #afa;
+  }
+.modal{
+    background-color: #afa;
+    box-shadow: 3px 3px 10px #faa;
+}
+
+input:indeterminate + label {
+    background: lime;
+  }
