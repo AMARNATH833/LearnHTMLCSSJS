@@ -1,0 +1,36 @@
+.column-type {
+    /* column-count: 2; */
+    columns: 5 8em;
+    column-gap: 50px;
+}
+
+.color {
+    color: red;
+}
+
+.column-width {
+    column-width: 150px;
+}
+
+/* @media (min-width:700px) {
+    p {
+        font-size: 100px;
+    }
+} */
+
+/* @media (min-width: 100px) and (orientation: landscape) {
+    p{
+        color: aqua;
+    }
+  } */
+/* @media screen and (min-width: 0px) and (orientation: landscape) {
+    p{
+        background-color: bisque;
+    }
+  } */
+
+/* @media (min-height: 600px), screen and (orientation: landscape) {
+    p{
+        color: aqua;
+    }
+  } */
