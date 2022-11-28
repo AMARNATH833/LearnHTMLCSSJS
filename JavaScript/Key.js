@@ -6,9 +6,9 @@ const keyboard=document.querySelector('.keyeve')
 
 //KEYDOWN is gives the details about the key which is pressed
 // in the keyboard...
-// keyboard.addEventListener('keydown',e=>{
-//     console.log(e)
-// })
+keyboard.addEventListener('keydown',e=>{
+    console.log(e)
+})
 
 
 
